@@ -2,6 +2,7 @@
 	<div style="border:1px solid grey">
 		<div>{{event.activity ? event.activity.code : event.payCode.code}}</div>
 		<ng-container eventLabel [eventObj]="event" (displayEvent)="displayEvent($event)">
+      <!-- Open Issue for "ExpressionChangedAfterItHasBeenCheckedError" - https://github.com/angular/angular/issues/18748 -->
 			<div class="event-label" [ngClass]="displayEventObj.className">{{displayEventObj.label}}</div>
 		</ng-container>
 	</div>
