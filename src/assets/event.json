@@ -1,0 +1,905 @@
+{
+  "schedules": [
+    {
+      "isScheduledHours": true,
+      "isScheduleTradable": false,
+      "isCoverage": true,
+      "isScheduleRetractable": false,
+      "startDate": "2020-02-14T02:00:00.000-06:00",
+      "requestedDate": null,
+      "requestForDates": null,
+      "hasStartTime": true,
+      "status": "Uncalculated",
+      "hours": 5,
+      "amount": null,
+      "jobClass": {
+        "id": 187,
+        "code": "99991",
+        "name": "ADM JC 01",
+        "number": 187
+      },
+      "payCode": null,
+      "lunchHours": 0,
+      "activity": {
+        "id": 228,
+        "code": "0200-5",
+        "name": "0200-5",
+        "startTime": "02:00:00",
+        "hours": 5,
+        "lunchHours": 0,
+        "payCode": null,
+        "configuration": {
+          "isDisplayedOnMonthlyView": true,
+          "isOnCall": false,
+          "isTimeOff": false
+        }
+      },
+      "profile": {
+        "id": 461,
+        "code": "ADMINP01",
+        "name": "ADMINP01",
+        "number": null
+      },
+      "position": {
+        "jobClass": {
+          "id": 187,
+          "code": "99991",
+          "name": "ADM JC 01",
+          "number": 187
+        },
+        "id": 1198,
+        "code": "Admin",
+        "name": "Admin",
+        "number": null
+      },
+      "employment": null,
+      "scheduleStatus": null,
+      "scheduleTradeStatus": null,
+      "scheduleTradeReviewerName": null,
+      "isExtraShift": false,
+      "isTradeRequested": false,
+      "requestedReason": null,
+      "source": "Manual",
+      "scheduleTradeParticipant": "None",
+      "guid": "",
+      "person": {
+        "id": 4927,
+        "code": "AdminVasantha",
+        "firstName": "Vasantha",
+        "lastName": "Vasantha",
+        "preferredName": "Vasantha",
+        "middleName": null,
+        "jobClass": null
+      },
+      "location": {
+        "facility": {
+          "id": 160,
+          "code": "ADMINS",
+          "name": "ADMINS",
+          "number": 99991
+        },
+        "department": {
+          "id": 161,
+          "code": "ADMINS",
+          "name": "ADMINS",
+          "number": 99993
+        },
+        "unit": null,
+        "timeZoneId": "America/Chicago",
+        "configuration": {
+          "isExtraShift": false
+        }
+      },
+      "readOnly": true,
+      "originalTransactionSource": null
+    },
+    {
+      "isScheduledHours": true,
+      "isScheduleTradable": true,
+      "isCoverage": true,
+      "isScheduleRetractable": false,
+      "startDate": "2020-02-14T08:00:00.000-06:00",
+      "requestedDate": null,
+      "requestForDates": null,
+      "hasStartTime": true,
+      "status": "Uncalculated",
+      "hours": 8,
+      "amount": null,
+      "jobClass": {
+        "id": 187,
+        "code": "99991",
+        "name": "ADM JC 01",
+        "number": 187
+      },
+      "payCode": null,
+      "lunchHours": 0,
+      "activity": {
+        "id": 225,
+        "code": "0800-8",
+        "name": "0800-8",
+        "startTime": "08:00:00",
+        "hours": 8,
+        "lunchHours": 0,
+        "payCode": null,
+        "configuration": {
+          "isDisplayedOnMonthlyView": true,
+          "isOnCall": true,
+          "isTimeOff": false
+        }
+      },
+      "profile": {
+        "id": 461,
+        "code": "ADMINP01",
+        "name": "ADMINP01",
+        "number": null
+      },
+      "position": {
+        "jobClass": {
+          "id": 187,
+          "code": "99991",
+          "name": "ADM JC 01",
+          "number": 187
+        },
+        "id": 1198,
+        "code": "Admin",
+        "name": "Admin",
+        "number": null
+      },
+      "employment": null,
+      "scheduleStatus": null,
+      "scheduleTradeStatus": null,
+      "scheduleTradeReviewerName": null,
+      "isExtraShift": false,
+      "isTradeRequested": false,
+      "requestedReason": null,
+      "source": "Manual",
+      "scheduleTradeParticipant": "None",
+      "guid": "",
+      "person": {
+        "id": 4927,
+        "code": "AdminVasantha",
+        "firstName": "Vasantha",
+        "lastName": "Vasantha",
+        "preferredName": "Vasantha",
+        "middleName": null,
+        "jobClass": null
+      },
+      "location": {
+        "facility": {
+          "id": 160,
+          "code": "ADMINS",
+          "name": "ADMINS",
+          "number": 99991
+        },
+        "department": {
+          "id": 161,
+          "code": "ADMINS",
+          "name": "ADMINS",
+          "number": 99993
+        },
+        "unit": null,
+        "timeZoneId": "America/Chicago",
+        "configuration": {
+          "isExtraShift": false
+        }
+      },
+      "readOnly": true,
+      "originalTransactionSource": null
+    },
+    {
+      "isScheduledHours": false,
+      "isScheduleTradable": null,
+      "isCoverage": false,
+      "isScheduleRetractable": false,
+      "startDate": "2020-02-14T12:00:00.000-06:00",
+      "requestedDate": null,
+      "requestForDates": null,
+      "hasStartTime": true,
+      "status": "Uncalculated",
+      "hours": 8,
+      "amount": null,
+      "jobClass": {
+        "id": 187,
+        "code": "99991",
+        "name": "ADM JC 01",
+        "number": 187
+      },
+      "payCode": {
+        "configuration": {
+          "isDisplayedOnMonthlyView": true,
+          "isOnCall": true,
+          "isTimeOff": false
+        },
+        "id": 233,
+        "code": "PC01",
+        "name": "PC01",
+        "number": null
+      },
+      "lunchHours": 0,
+      "activity": null,
+      "profile": null,
+      "position": null,
+      "employment": null,
+      "scheduleStatus": null,
+      "scheduleTradeStatus": null,
+      "scheduleTradeReviewerName": null,
+      "isExtraShift": false,
+      "isTradeRequested": false,
+      "requestedReason": null,
+      "source": "Manual",
+      "scheduleTradeParticipant": "None",
+      "guid": "",
+      "person": {
+        "id": 4927,
+        "code": "AdminVasantha",
+        "firstName": "Vasantha",
+        "lastName": "Vasantha",
+        "preferredName": "Vasantha",
+        "middleName": null,
+        "jobClass": null
+      },
+      "location": {
+        "facility": {
+          "id": 160,
+          "code": "ADMINS",
+          "name": "ADMINS",
+          "number": 99991
+        },
+        "department": {
+          "id": 161,
+          "code": "ADMINS",
+          "name": "ADMINS",
+          "number": 99993
+        },
+        "unit": null,
+        "timeZoneId": "America/Chicago",
+        "configuration": null
+      },
+      "readOnly": true,
+      "originalTransactionSource": null
+    },
+    {
+      "isScheduledHours": true,
+      "isScheduleTradable": true,
+      "isCoverage": true,
+      "isScheduleRetractable": false,
+      "startDate": "2020-02-14T12:00:00.000-06:00",
+      "requestedDate": null,
+      "requestForDates": null,
+      "hasStartTime": true,
+      "status": "Uncalculated",
+      "hours": 8,
+      "amount": null,
+      "jobClass": {
+        "id": 187,
+        "code": "99991",
+        "name": "ADM JC 01",
+        "number": 187
+      },
+      "payCode": null,
+      "lunchHours": 0,
+      "activity": {
+        "id": 225,
+        "code": "0800-8",
+        "name": "0800-8",
+        "startTime": "08:00:00",
+        "hours": 8,
+        "lunchHours": 0,
+        "payCode": null,
+        "configuration": {
+          "isDisplayedOnMonthlyView": true,
+          "isOnCall": true,
+          "isTimeOff": false
+        }
+      },
+      "profile": {
+        "id": 461,
+        "code": "ADMINP01",
+        "name": "ADMINP01",
+        "number": null
+      },
+      "position": {
+        "jobClass": {
+          "id": 187,
+          "code": "99991",
+          "name": "ADM JC 01",
+          "number": 187
+        },
+        "id": 1198,
+        "code": "Admin",
+        "name": "Admin",
+        "number": null
+      },
+      "employment": null,
+      "scheduleStatus": null,
+      "scheduleTradeStatus": null,
+      "scheduleTradeReviewerName": null,
+      "isExtraShift": false,
+      "isTradeRequested": false,
+      "requestedReason": null,
+      "source": "Manual",
+      "scheduleTradeParticipant": "None",
+      "guid": "",
+      "person": {
+        "id": 4927,
+        "code": "AdminVasantha",
+        "firstName": "Vasantha",
+        "lastName": "Vasantha",
+        "preferredName": "Vasantha",
+        "middleName": null,
+        "jobClass": null
+      },
+      "location": {
+        "facility": {
+          "id": 160,
+          "code": "ADMINS",
+          "name": "ADMINS",
+          "number": 99991
+        },
+        "department": {
+          "id": 161,
+          "code": "ADMINS",
+          "name": "ADMINS",
+          "number": 99993
+        },
+        "unit": null,
+        "timeZoneId": "America/Chicago",
+        "configuration": {
+          "isExtraShift": false
+        }
+      },
+      "readOnly": true,
+      "originalTransactionSource": null
+    },
+    {
+      "isScheduledHours": true,
+      "isScheduleTradable": true,
+      "isCoverage": true,
+      "isScheduleRetractable": false,
+      "startDate": "2020-02-14T15:00:00.000-06:00",
+      "requestedDate": null,
+      "requestForDates": null,
+      "hasStartTime": true,
+      "status": "Uncalculated",
+      "hours": 8,
+      "amount": null,
+      "jobClass": {
+        "id": 187,
+        "code": "99991",
+        "name": "ADM JC 01",
+        "number": 187
+      },
+      "payCode": null,
+      "lunchHours": 0,
+      "activity": {
+        "id": 226,
+        "code": "1500-8",
+        "name": "1500-8",
+        "startTime": "15:00:00",
+        "hours": 8,
+        "lunchHours": 0,
+        "payCode": null,
+        "configuration": {
+          "isDisplayedOnMonthlyView": true,
+          "isOnCall": false,
+          "isTimeOff": true
+        }
+      },
+      "profile": {
+        "id": 461,
+        "code": "ADMINP01",
+        "name": "ADMINP01",
+        "number": null
+      },
+      "position": {
+        "jobClass": {
+          "id": 187,
+          "code": "99991",
+          "name": "ADM JC 01",
+          "number": 187
+        },
+        "id": 1198,
+        "code": "Admin",
+        "name": "Admin",
+        "number": null
+      },
+      "employment": null,
+      "scheduleStatus": null,
+      "scheduleTradeStatus": null,
+      "scheduleTradeReviewerName": null,
+      "isExtraShift": false,
+      "isTradeRequested": false,
+      "requestedReason": null,
+      "source": "Manual",
+      "scheduleTradeParticipant": "None",
+      "guid": "",
+      "person": {
+        "id": 4927,
+        "code": "AdminVasantha",
+        "firstName": "Vasantha",
+        "lastName": "Vasantha",
+        "preferredName": "Vasantha",
+        "middleName": null,
+        "jobClass": null
+      },
+      "location": {
+        "facility": {
+          "id": 160,
+          "code": "ADMINS",
+          "name": "ADMINS",
+          "number": 99991
+        },
+        "department": {
+          "id": 161,
+          "code": "ADMINS",
+          "name": "ADMINS",
+          "number": 99993
+        },
+        "unit": null,
+        "timeZoneId": "America/Chicago",
+        "configuration": {
+          "isExtraShift": false
+        }
+      },
+      "readOnly": true,
+      "originalTransactionSource": null
+    },
+    {
+      "isScheduledHours": false,
+      "isScheduleTradable": null,
+      "isCoverage": false,
+      "isScheduleRetractable": false,
+      "startDate": "2020-02-15T02:00:00.000-06:00",
+      "requestedDate": null,
+      "requestForDates": null,
+      "hasStartTime": true,
+      "status": "Uncalculated",
+      "hours": 5,
+      "amount": null,
+      "jobClass": {
+        "id": 187,
+        "code": "99991",
+        "name": "ADM JC 01",
+        "number": 187
+      },
+      "payCode": {
+        "configuration": {
+          "isDisplayedOnMonthlyView": true,
+          "isOnCall": true,
+          "isTimeOff": false
+        },
+        "id": 233,
+        "code": "PC01",
+        "name": "PC01",
+        "number": null
+      },
+      "lunchHours": 0,
+      "activity": null,
+      "profile": null,
+      "position": {
+        "jobClass": {
+          "id": 187,
+          "code": "99991",
+          "name": "ADM JC 01",
+          "number": 187
+        },
+        "id": 1198,
+        "code": "Admin",
+        "name": "Admin",
+        "number": null
+      },
+      "employment": null,
+      "scheduleStatus": null,
+      "scheduleTradeStatus": null,
+      "scheduleTradeReviewerName": null,
+      "isExtraShift": false,
+      "isTradeRequested": false,
+      "requestedReason": null,
+      "source": "Manual",
+      "scheduleTradeParticipant": "None",
+      "guid": "",
+      "person": {
+        "id": 4927,
+        "code": "AdminVasantha",
+        "firstName": "Vasantha",
+        "lastName": "Vasantha",
+        "preferredName": "Vasantha",
+        "middleName": null,
+        "jobClass": null
+      },
+      "location": {
+        "facility": {
+          "id": 160,
+          "code": "ADMINS",
+          "name": "ADMINS",
+          "number": 99991
+        },
+        "department": {
+          "id": 161,
+          "code": "ADMINS",
+          "name": "ADMINS",
+          "number": 99993
+        },
+        "unit": null,
+        "timeZoneId": "America/Chicago",
+        "configuration": null
+      },
+      "readOnly": true,
+      "originalTransactionSource": null
+    },
+    {
+      "isScheduledHours": true,
+      "isScheduleTradable": true,
+      "isCoverage": true,
+      "isScheduleRetractable": false,
+      "startDate": "2020-02-18T08:00:00.000-06:00",
+      "requestedDate": null,
+      "requestForDates": null,
+      "hasStartTime": true,
+      "status": "Uncalculated",
+      "hours": 8,
+      "amount": null,
+      "jobClass": {
+        "id": 187,
+        "code": "99991",
+        "name": "ADM JC 01",
+        "number": 187
+      },
+      "payCode": null,
+      "lunchHours": 0,
+      "activity": {
+        "id": 225,
+        "code": "0800-8",
+        "name": "0800-8",
+        "startTime": "08:00:00",
+        "hours": 8,
+        "lunchHours": 0,
+        "payCode": null,
+        "configuration": {
+          "isDisplayedOnMonthlyView": true,
+          "isOnCall": true,
+          "isTimeOff": false
+        }
+      },
+      "profile": {
+        "id": 461,
+        "code": "ADMINP01",
+        "name": "ADMINP01",
+        "number": null
+      },
+      "position": {
+        "jobClass": {
+          "id": 187,
+          "code": "99991",
+          "name": "ADM JC 01",
+          "number": 187
+        },
+        "id": 1198,
+        "code": "Admin",
+        "name": "Admin",
+        "number": null
+      },
+      "employment": null,
+      "scheduleStatus": null,
+      "scheduleTradeStatus": null,
+      "scheduleTradeReviewerName": null,
+      "isExtraShift": false,
+      "isTradeRequested": false,
+      "requestedReason": null,
+      "source": "Manual",
+      "scheduleTradeParticipant": "None",
+      "guid": "",
+      "person": {
+        "id": 4927,
+        "code": "AdminVasantha",
+        "firstName": "Vasantha",
+        "lastName": "Vasantha",
+        "preferredName": "Vasantha",
+        "middleName": null,
+        "jobClass": null
+      },
+      "location": {
+        "facility": {
+          "id": 160,
+          "code": "ADMINS",
+          "name": "ADMINS",
+          "number": 99991
+        },
+        "department": {
+          "id": 161,
+          "code": "ADMINS",
+          "name": "ADMINS",
+          "number": 99993
+        },
+        "unit": null,
+        "timeZoneId": "America/Chicago",
+        "configuration": {
+          "isExtraShift": false
+        }
+      },
+      "readOnly": true,
+      "originalTransactionSource": null
+    },
+    {
+      "isScheduledHours": true,
+      "isScheduleTradable": true,
+      "isCoverage": true,
+      "isScheduleRetractable": false,
+      "startDate": "2020-02-19T08:00:00.000-06:00",
+      "requestedDate": null,
+      "requestForDates": null,
+      "hasStartTime": true,
+      "status": "Uncalculated",
+      "hours": 8,
+      "amount": null,
+      "jobClass": {
+        "id": 187,
+        "code": "99991",
+        "name": "ADM JC 01",
+        "number": 187
+      },
+      "payCode": null,
+      "lunchHours": 0,
+      "activity": {
+        "id": 225,
+        "code": "0800-8",
+        "name": "0800-8",
+        "startTime": "08:00:00",
+        "hours": 8,
+        "lunchHours": 0,
+        "payCode": null,
+        "configuration": {
+          "isDisplayedOnMonthlyView": true,
+          "isOnCall": true,
+          "isTimeOff": false
+        }
+      },
+      "profile": {
+        "id": 461,
+        "code": "ADMINP01",
+        "name": "ADMINP01",
+        "number": null
+      },
+      "position": {
+        "jobClass": {
+          "id": 187,
+          "code": "99991",
+          "name": "ADM JC 01",
+          "number": 187
+        },
+        "id": 1198,
+        "code": "Admin",
+        "name": "Admin",
+        "number": null
+      },
+      "employment": null,
+      "scheduleStatus": "Trade",
+      "scheduleTradeStatus": "Requested",
+      "scheduleTradeReviewerName": "Ryan Beall",
+      "isExtraShift": false,
+      "isTradeRequested": true,
+      "requestedReason": null,
+      "source": "Manual",
+      "scheduleTradeParticipant": "Requestor",
+      "guid": "",
+      "person": {
+        "id": 4927,
+        "code": "AdminVasantha",
+        "firstName": "Vasantha",
+        "lastName": "Vasantha",
+        "preferredName": "Vasantha",
+        "middleName": null,
+        "jobClass": null
+      },
+      "location": {
+        "facility": {
+          "id": 160,
+          "code": "ADMINS",
+          "name": "ADMINS",
+          "number": 99991
+        },
+        "department": {
+          "id": 161,
+          "code": "ADMINS",
+          "name": "ADMINS",
+          "number": 99993
+        },
+        "unit": null,
+        "timeZoneId": "America/Chicago",
+        "configuration": {
+          "isExtraShift": false
+        }
+      },
+      "readOnly": true,
+      "originalTransactionSource": null
+    },
+    {
+      "isScheduledHours": true,
+      "isScheduleTradable": false,
+      "isCoverage": true,
+      "isScheduleRetractable": false,
+      "startDate": "2020-02-20T02:00:00.000-06:00",
+      "requestedDate": null,
+      "requestForDates": null,
+      "hasStartTime": true,
+      "status": "Uncalculated",
+      "hours": 5,
+      "amount": null,
+      "jobClass": {
+        "id": 187,
+        "code": "99991",
+        "name": "ADM JC 01",
+        "number": 187
+      },
+      "payCode": null,
+      "lunchHours": 0,
+      "activity": {
+        "id": 228,
+        "code": "0200-5",
+        "name": "0200-5",
+        "startTime": "02:00:00",
+        "hours": 5,
+        "lunchHours": 0,
+        "payCode": null,
+        "configuration": {
+          "isDisplayedOnMonthlyView": true,
+          "isOnCall": false,
+          "isTimeOff": false
+        }
+      },
+      "profile": {
+        "id": 461,
+        "code": "ADMINP01",
+        "name": "ADMINP01",
+        "number": null
+      },
+      "position": {
+        "jobClass": {
+          "id": 187,
+          "code": "99991",
+          "name": "ADM JC 01",
+          "number": 187
+        },
+        "id": 1198,
+        "code": "Admin",
+        "name": "Admin",
+        "number": null
+      },
+      "employment": null,
+      "scheduleStatus": null,
+      "scheduleTradeStatus": null,
+      "scheduleTradeReviewerName": null,
+      "isExtraShift": false,
+      "isTradeRequested": false,
+      "requestedReason": null,
+      "source": "Manual",
+      "scheduleTradeParticipant": "None",
+      "guid": "",
+      "person": {
+        "id": 4927,
+        "code": "AdminVasantha",
+        "firstName": "Vasantha",
+        "lastName": "Vasantha",
+        "preferredName": "Vasantha",
+        "middleName": null,
+        "jobClass": null
+      },
+      "location": {
+        "facility": {
+          "id": 160,
+          "code": "ADMINS",
+          "name": "ADMINS",
+          "number": 99991
+        },
+        "department": {
+          "id": 161,
+          "code": "ADMINS",
+          "name": "ADMINS",
+          "number": 99993
+        },
+        "unit": null,
+        "timeZoneId": "America/Chicago",
+        "configuration": {
+          "isExtraShift": false
+        }
+      },
+      "readOnly": true,
+      "originalTransactionSource": null
+    },
+    {
+      "isScheduledHours": false,
+      "isScheduleTradable": true,
+      "isCoverage": true,
+      "isScheduleRetractable": true,
+      "startDate": "2020-02-21T08:00:00.000-06:00",
+      "requestedDate": "2020-02-14T02:40:31.196-06:00",
+      "requestForDates": [
+        "2020-02-21T08:00:00.000-06:00"
+      ],
+      "hasStartTime": true,
+      "status": "Requested",
+      "hours": 8,
+      "amount": null,
+      "jobClass": {
+        "id": 187,
+        "code": "99991",
+        "name": "ADM JC 01",
+        "number": 187
+      },
+      "payCode": null,
+      "lunchHours": 0,
+      "activity": {
+        "id": 225,
+        "code": "0800-8",
+        "name": "0800-8",
+        "startTime": "08:00:00",
+        "hours": 8,
+        "lunchHours": 0,
+        "payCode": null,
+        "configuration": {
+          "isDisplayedOnMonthlyView": true,
+          "isOnCall": true,
+          "isTimeOff": false
+        }
+      },
+      "profile": {
+        "id": 461,
+        "code": "ADMINP01",
+        "name": "ADMINP01",
+        "number": null
+      },
+      "position": {
+        "jobClass": {
+          "id": 187,
+          "code": "99991",
+          "name": "ADM JC 01",
+          "number": 187
+        },
+        "id": 1198,
+        "code": "Admin",
+        "name": "Admin",
+        "number": null
+      },
+      "employment": null,
+      "scheduleStatus": null,
+      "scheduleTradeStatus": null,
+      "scheduleTradeReviewerName": null,
+      "isExtraShift": false,
+      "isTradeRequested": false,
+      "requestedReason": null,
+      "source": "RequestToWork",
+      "scheduleTradeParticipant": "None",
+      "guid": "",
+      "person": {
+        "id": 4927,
+        "code": "AdminVasantha",
+        "firstName": "Vasantha",
+        "lastName": "Vasantha",
+        "preferredName": "Vasantha",
+        "middleName": null,
+        "jobClass": null
+      },
+      "location": {
+        "facility": {
+          "id": 160,
+          "code": "ADMINS",
+          "name": "ADMINS",
+          "number": 99991
+        },
+        "department": {
+          "id": 161,
+          "code": "ADMINS",
+          "name": "ADMINS",
+          "number": 99993
+        },
+        "unit": null,
+        "timeZoneId": "America/Chicago",
+        "configuration": {
+          "isExtraShift": false
+        }
+      },
+      "readOnly": true,
+      "originalTransactionSource": null
+    }
+  ]
+}
